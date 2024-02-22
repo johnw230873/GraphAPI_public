@@ -1,0 +1,6 @@
+#if you need to alter this behaviour you can either alter the exception at the bottom
+#if the exception is not a failed option then add another .gitattributes files in the 
+#folder of the files you do not want this behaviour to occur and override it there
+
+# Set the default behaviour, in case people don't have core.autocrlf set.
+* text=auto eol=lf
